@@ -13,11 +13,12 @@ function App() {
     setItems(updatedItems);
   };
 
+  /*
   const handleFinalSubmit = () => {
-    // Perform final submission logic here
     alert('Safety checklist submitted!');
   };
-  
+  */
+ 
   const handleAddItem = (item) => {
     const newItem = {
       id: Date.now(),
